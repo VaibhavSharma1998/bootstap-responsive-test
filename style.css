@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mt-40{
+    margin-top: 40px;
+}
+
+.girl-left-div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.mt-10{
+    margin-top: 10px;
+}
+
+.laptop-girl{
+    width:300px;
+    height: 300px;
+    border-radius: 100%;
+}
+
+.logo-lorem{
+    margin-top: 10px;
+}
+
+.quick-left{
+    margin-left: 50px;
+}
+
+.below-quick{
+    display: flex;
+
+}
+
+.resume-div{
+    margin-left: 25px;
+}
+
+.follow-div{
+    margin-left: 30px;
+}
+
+@media  (max-width:575px) {
+    
+}
+
+@media  (min-width:576px ) and ( max-width:767px) {
+    
+}
+
+@media  (min-width:768px ) and ( max-width:991px) {
+    .img-girl-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .quick-left{
+        margin-left: 0px;
+    }
+
+    .follow-div{
+        margin-left: 0px;
+    }
+}
+
+@media  (min-width:992px ) and ( max-width:1200px) {
+    
+}
+
