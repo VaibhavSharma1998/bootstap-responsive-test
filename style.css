@@ -4,6 +4,29 @@
     box-sizing: border-box;
 }
 
+header{
+   background-image: url('./images/dekstop-image-company-projects.jpeg');
+   background-size: cover; /* Adjusts the size of the background image */
+   background-position: center; /* Centers the background image */
+   background-repeat: no-repeat;
+   
+}
+
+.above-image-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-btn{
+    margin-right: 50px;
+    margin-top: 29px;
+}
+
+.left-logo{
+    width: 123px;
+    height: 143px;
+}
+
 .mt-40{
     margin-top: 40px;
 }
